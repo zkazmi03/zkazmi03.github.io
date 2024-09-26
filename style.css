@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    background-color: #f0f0f0; /* Example: Light grey */
+    color: #333333; /* Example: Dark grey */
+    margin: 20px; /* Margin greater than 10pt on all sides */
+}
+h1 {
+    font-size: 36px;
+    color: #2e86de; /* Example: A blue color */
+}
+
+h2 {
+    font-size: 30px;
+    color: #28b463; /* Example: A green color */
+}
+
+h3 {
+    font-size: 24px;
+    color: #af7ac5; /* Example: A purple color */
+}
+p {
+    font-size: 14pt;
+    color: #555555; /* Example: Medium grey */
+    line-height: 1.6; /* Adds space between lines */
+}
+/* Style for anchor tags */
+a:link, a:visited {
+    color: #2980b9; /* Example: Blue for non visited and visited links */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: #d35400; /* Example: Change to orange when hovering */
+    text-decoration: underline; /* Underline on hover */
+}
+
+a:active {
+    color: #c0392b; /* Example: Dark red when clicked */
+}
+/* Style for div elements used in the table */
+div.table {
+    display: table;
+    width: 100%;
+}
+
+div.table-row {
+    display: table-row;
+}
+
+div.table-cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #ccc;
+    vertical-align: top;
+}
+
+/* Optional: Style the divs specifically for links and descriptions */
+div.link {
+    font-weight: bold;
+}
+
+div.description {
+    color: #666666; /* Example: Lighter grey */
+}
+
+
