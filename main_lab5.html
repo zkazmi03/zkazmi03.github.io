@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 5 Assignment</title>
+    <link rel="stylesheet" href="style_lab5.css">
+    <script src="main_lab5.js" defer></script>
+</head>
+<body>
+
+    <!-- Sidebar Navigation -->
+    <div id="container">
+        <nav>
+            <a href="https://www.apple.com" target="_blank" onmouseover="mOver(this)" onmouseout="mOut(this)">Apple Website</a>
+            <a href="https://www.linkedin.com/in/zain-k-9444912a5/" onmouseover="mOver(this)" onmouseout="mOut(this)">Linkedin</a>
+            <div class="dropdown">
+                <button onclick="toggleDropdown()" class="dropbtn">Menu</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="https://www.torontomu.ca" onmouseover="mOver(this)" onmouseout="mOut(this)">Toronto M U</a>
+                    <a href="https://www.ut.edu" onmouseover="mOver(this)" onmouseout="mOut(this)">Tampa U</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+</head>
+<body>
+
+    <!-- Dropdown Menu -->
+    <div class="dropdown">
+        <button onclick="toggleDropdown()" class="dropbtn">Resources</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="#">Content</a>
+            <a href="#">Library E-Reserves</a>
+            <a href="#">Calendar</a>
+            <a href="#">Links</a>
+            <a href="#">System Check</a>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
+    <!-- Page Content -->
+    <div class="content">
+        <h2>ITM780 Web Design and Management</h2>
+        <h3>L5. JS</h3>
+
+        <!-- Button to prompt for name -->
+        <button onclick="promptForName()">Enter Your Name</button>
+        <p id="displayName"></p>
+
+        <!-- Clickable Image -->
+        <img src="/Users/zain.k/Downloads/profile-pic.png" id="myImage" alt="My Image" onclick="enlargeImage()" style="width:200px; cursor:pointer;">
+        <p>The image will enlarge when clicked!</p>
+    </div>
+</body>
+</html>
