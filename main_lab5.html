@@ -9,16 +9,57 @@
 </head>
 <body>
 
-<!-- Links at the top -->
-    <div class="dropdown">
-    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-    <div id="myDropdown" class="dropdown-content show">
-        <a href="#">apple</a>
-        <a href="#">mango</a>
-        <a href="#">orange</a>
-        <a href="#">cherry</a>
-    </div>
+
+
+    				});</script></head>
+<body>
+	
+	<!-- Step A: Buttons are created in HTML. Their functionality is controlled using JavaScript.
+	These buttons have no functionality -->
+	
+	<button type="button">Non-functional Button</button>
+	<!-- You can assign classes and IDs to buttons like any other HTML element -->
+	<button type="button" id="myButton">Non-functional Button</button>
+	
+	<!-- Step B: Functional button -->
+	<button onclick="firsteventhandler()">Click Me!</button>
+
+	<!-- Mouse Over & Mouse Out Event. 
+        Reacts to mouse over and off the div area-->
+	<div onmouseover="mOver(this)" onmouseout="mOut(this)" style="width:120px;height:20px;padding:40px;">Mouse Over Here</div>
+<!-- “this” refers to the div -->
+
+	<!-- Step C -->
+
+<div id="container">
+  <nav>
+    <a href="/apple/">apple</a>
+    <a href="/mango/">mango</a>
+    <a href="#orange/">orange</a>
+    <a href="#cherry/">cherry</a>
+  </nav>
 </div>
+
+<!-- Page Content -->
+<div style="margin-left:25%">
+  <h2>Sidebar Navigation Example</h2>
+  <p>The sidebar with is set width "style="width:25%".</p>
+  <p>The left margin of the page content is set to the same value.</p>
+</div>
+
+	<!-- Step E -->
+	<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">apple</a>
+    <a href="#">mango</a>
+    <a href="#">orange</a>
+    <a href="#">cherry</a>
+  </div>
+</div>
+
+
+    
         
     <a href="https://www.apple.com" target="_blank">Apple Website</a>
     <a href="https://www.linkedin.com" target="_blank">Linkedin</a>
