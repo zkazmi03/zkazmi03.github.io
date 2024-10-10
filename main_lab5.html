@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 5 Assignment</title>
+    <link rel="stylesheet" href="style_lab5.css">
+    <script src="main_lab5.js" defer></script>
+</head>
+<body>
+ <!-- Sidebar navigation with onmouseover and onmouseout -->
+ <div onmouseover="mOver(this)" onmouseout="mOut(this)" style="width: 120px; height: 20px; padding: 40px; color: orange;">Welcome</div>
+
+    <!-- Sidebar Navigation -->
+    <div id="container">
+        <nav>
+            <a href="https://www.apple.com" target="_blank" onmouseover="mOver(this)" onmouseout="mOut(this)">Apple Website</a>
+            <a href="https://www.linkedin.com/in/zain-k-9444912a5/" onmouseover="mOver(this)" onmouseout="mOut(this)">Linkedin</a>
+            <div class="dropdown">
+                <button onclick="toggleDropdown()" class="dropbtn">Menu</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="https://www.torontomu.ca" onmouseover="mOver(this)" onmouseout="mOut(this)">Toronto M U</a>
+                    <a href="https://www.ut.edu" onmouseover="mOver(this)" onmouseout="mOut(this)">Tampa U</a>
+                    <a href="https://www.ucla.edu" onmouseover="mOver(this)" onmouseout="mOut(this)">UCLA </a>
+                    <a href="file:///Users/zain.k/Documents/GitHub/desktop-tutorial/Zain-Kazmi/main_lab5.html" onmouseover="mOver(this)" onmouseout="mOut(this)">MyPage</a>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+ 
+
+    <!-- Page Content -->
+    <div class="content">
+        <h2>ITM780 Web Design and Management</h2>
+        <h3>L5. JS</h3>
+
+        <!-- Button to prompt for name -->
+        <button onclick="promptForName()">Enter Your Name</button>
+        <p id="displayName"></p>
+
+        <!-- Clickable Image -->
+        <img src="/Users/zain.k/Downloads/Photo on 2024-08-23 at 8.00 PM.jpg" id="myImage" alt="My Image" onclick="enlargeImage()" style="width:200px; cursor:pointer;">
+        <p>The image will get larger when clicked</p>
+    </div>
+ <!-- Sidebar navigation with onmouseover and onmouseout -->
+ 
+</body>
+</html>
